@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: llm-workings
+Version: 0.1.0
+Summary: Hands-on exploration of LLM internals
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Dynamic: license-file

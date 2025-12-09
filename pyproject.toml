@@ -1,0 +1,21 @@
+[project]
+name = "llm-workings"
+version = "0.1.0"
+description = "Hands-on exploration of LLM internals"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "numpy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"

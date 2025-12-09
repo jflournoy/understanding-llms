@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/gradient_descent/__init__.py
+src/llm_workings.egg-info/PKG-INFO
+src/llm_workings.egg-info/SOURCES.txt
+src/llm_workings.egg-info/dependency_links.txt
+src/llm_workings.egg-info/requires.txt
+src/llm_workings.egg-info/top_level.txt
