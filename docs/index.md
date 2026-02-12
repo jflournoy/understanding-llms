@@ -43,6 +43,35 @@ This is an active learning project, building understanding through code and expe
 
 [Explore what we've built →](/guide/built)
 
+## Learning Method: Claude as Tutor
+
+This project uses Claude not just as a coding assistant, but as a **Socratic tutor** - prioritizing understanding over answers.
+
+### How It Works
+
+Rather than lectures and explanations, the approach is:
+
+- **Ask questions first** - "What do you already know about attention mechanisms?"
+- **Guide discovery** - Lead toward insights rather than stating them directly
+- **Encourage prediction** - "What do you think will happen when we change this parameter?"
+- **Embrace confusion** - Confusion signals you're at the edge of understanding; we explore it together
+- **Experiment before explaining** - Run code, observe results, then build theory from what we see
+- **Verify understanding** - "Explain this back to me in your own words"
+
+### Why This Matters
+
+Traditional AI assistance provides answers. This approach builds **intuition** and **mental models**:
+
+> "The residual stream is where information flows between layers..."
+> ❌ **Too abstract**
+
+> "You mentioned residuals - what do you already know about skip connections? What problem do you think they solve?"
+> ✅ **Builds on existing knowledge**
+
+The goal isn't just working code - it's understanding deep enough to ask the next question yourself.
+
+[Read the full tutoring guidelines →](https://github.com/jflournoy/llm-workings/blob/main/CLAUDE.md)
+
 ## Technical Approach
 
 - **Local development** - All experiments run on local hardware (12GB GPU constraint)
