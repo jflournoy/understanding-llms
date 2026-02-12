@@ -24,6 +24,43 @@ Step through neural network training and see **every computation** in mathematic
 Try adjusting the learning rate slider and watch how it affects convergence!
 :::
 
+## What is XOR?
+
+**XOR (Exclusive OR)** is a logical operation that outputs `true` (1) only when inputs differ:
+
+| Input A | Input B | XOR Output |
+|---------|---------|------------|
+| 0       | 0       | **0**      |
+| 0       | 1       | **1**      |
+| 1       | 0       | **1**      |
+| 1       | 1       | **0**      |
+
+### Why XOR is Perfect for Learning
+
+XOR is the **simplest problem that requires a hidden layer**:
+
+- **Linear separability**: You cannot draw a single straight line to separate the outputs
+- **Requires feature combination**: The network must learn that "inputs differ" is the pattern
+- **Classic test**: If a neural network can learn XOR, it has the capacity for non-linear learning
+
+### What the Network is Learning
+
+The demo shows a **2→4→1 network** learning XOR through these steps:
+
+1. **Random initialization**: Weights start random, predictions are terrible
+2. **Forward pass**: Input flows through network, producing a prediction (0 to 1)
+3. **Calculate error**: Compare prediction to actual XOR answer
+4. **Backpropagation**: Calculate how to adjust each weight to reduce error
+5. **Update weights**: Apply gradients to make predictions slightly better
+6. **Repeat**: After many iterations, the network learns the XOR pattern
+
+**Watch for**:
+- Early training: Loss is high (~0.7), predictions random
+- Middle training: Loss decreases, patterns start emerging
+- Convergence: Loss near 0, all 4 XOR cases predicted correctly
+
+The **Data Visualization** tab shows the 4 training points and how the network classifies them in the input space.
+
 ## What This Demo Teaches
 
 ### 1. How Neural Networks Learn
