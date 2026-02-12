@@ -7,19 +7,6 @@ description: Interactive step-through of neural network training on the XOR prob
 
 Step through neural network training and see **every computation** in mathematical detail.
 
-## Try It Now
-
-<div class="demo-full-width">
-<iframe
-  src="/understanding-llms/demos/neural-network/index.html"
-  width="100%"
-  height="900px"
-  frameborder="0"
-  style="border: 1px solid #e5e7eb; border-radius: 8px; margin: 1rem 0;"
-  loading="lazy"
-></iframe>
-</div>
-
 ## Quick Start
 
 **Click ▶ Play** to start training • **Explore the tabs** at the top (Network, Computation, Data, Predictions, Parameters) • **Adjust learning rate** slider to see different behaviors
@@ -52,6 +39,19 @@ Step through neural network training and see **every computation** in mathematic
 5. Reset and compare different runs
 
 </details>
+
+## Try It Now
+
+<div class="demo-full-width">
+<iframe
+  src="/understanding-llms/demos/neural-network/index.html"
+  width="100%"
+  height="900px"
+  frameborder="0"
+  style="border: 1px solid #e5e7eb; border-radius: 8px; margin: 1rem 0;"
+  loading="lazy"
+></iframe>
+</div>
 
 ## What is XOR?
 
