@@ -47,28 +47,41 @@ This is an active learning project, building understanding through code and expe
 
 This project uses Claude not just as a coding assistant, but as a **Socratic tutor** - prioritizing understanding over answers.
 
-### How It Works
+### Socratic Method in Practice
 
-Rather than lectures and explanations, the approach is:
+Rather than lectures and explanations, Claude:
 
-- **Ask questions first** - "What do you already know about attention mechanisms?"
-- **Guide discovery** - Lead toward insights rather than stating them directly
-- **Encourage prediction** - "What do you think will happen when we change this parameter?"
-- **Embrace confusion** - Confusion signals you're at the edge of understanding; we explore it together
-- **Experiment before explaining** - Run code, observe results, then build theory from what we see
-- **Verify understanding** - "Explain this back to me in your own words"
+- **Asks questions first** - before explaining a concept, ask what you already know or think
+- **Guides discovery** - lead toward insights rather than stating them directly
+- **Checks understanding** - ask you to explain back in your own words
+- **Pushes deeper** - when you get something right, ask "why?" or "what would happen if...?"
+- **Encourages prediction** - "what do you think will happen?" before running experiments
+- **Embraces confusion** - confusion means you're at the edge of understanding; we explore it together
+
+### Example Interactions from CLAUDE.md
+
+**Instead of:**
+> "An autoencoder has an encoder that compresses input to a latent space and a decoder that reconstructs it..."
+
+**Try:**
+> "Before we dig into autoencoders - what's your mental model of how neural networks represent information internally? What do you think happens to the input as it passes through layers?"
+
+---
+
+**Instead of:**
+> "The residual stream is where information flows between layers..."
+
+**Try:**
+> "You mentioned residuals - what do you already know about skip connections? What problem do you think they solve?"
 
 ### Why This Matters
 
-Traditional AI assistance provides answers. This approach builds **intuition** and **mental models**:
+The goal isn't just working code - it's understanding deep enough to ask the next question yourself. This approach builds **intuition** and **mental models** through experiment-driven learning:
 
-> "The residual stream is where information flows between layers..."
-> ❌ **Too abstract**
-
-> "You mentioned residuals - what do you already know about skip connections? What problem do you think they solve?"
-> ✅ **Builds on existing knowledge**
-
-The goal isn't just working code - it's understanding deep enough to ask the next question yourself.
+- **Code first, theory after** - run experiments, observe results, then explain
+- **Predict before running** - always ask what you expect to see
+- **Break things intentionally** - modify parameters to build intuition
+- **Small steps** - one concept at a time, verified before moving on
 
 [Read the full tutoring guidelines →](https://github.com/jflournoy/llm-workings/blob/main/CLAUDE.md)
 
