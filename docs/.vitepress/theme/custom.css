@@ -3,7 +3,8 @@
 .vp-doc .container,
 .VPContent .container,
 .content,
-.content-container {
+.content-container,
+.VPDoc .container {
   max-width: 1800px !important;
 }
 
@@ -12,10 +13,11 @@
   padding: 32px 48px !important;
 }
 
-/* Demo gets extra width */
+/* Demo matches content width exactly - extends beyond vp-doc padding */
 .demo-full-width {
-  margin: 2rem 0;
-  width: 100%;
+  margin: 2rem -48px; /* Negative margin to extend beyond vp-doc padding */
+  width: calc(100% + 96px); /* 48px padding on each side */
+  max-width: none;
 }
 
 .demo-full-width iframe {
