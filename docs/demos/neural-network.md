@@ -10,7 +10,7 @@ Step through neural network training and see **every computation** in mathematic
 ## Try It Now
 
 <iframe
-  src="/llm-workings/demos/neural-network/index.html"
+  src="/understanding-llms/demos/neural-network/index.html"
   width="100%"
   height="900px"
   frameborder="0"
